@@ -1,0 +1,130 @@
+/* Basic Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Body */
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: bisque;
+   padding: 20px;
+}
+
+/* Header */
+header {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+header h1 {
+   font-size: 2.5rem;
+   color: black;
+}
+
+/* Form */
+
+#form-container {
+   background: #fdca40;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+   margin: 0 auto;
+ }
+
+form {
+   background: pink;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.form-section {
+   margin-bottom: 20px;
+}
+
+.form-section h2 {
+   font-size: 1.8rem;
+   margin-bottom: 10px;
+   color: #000000;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: 600;
+   color: purple;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid gray;
+   border-radius: 4px;
+   font-size: 1rem;
+}
+
+textarea {
+   resize: vertical;
+}
+
+button {
+   display: block;
+   width: 100%;
+   padding: 12px;
+   background-color: palevioletred;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   font-size: 1.1rem;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+button:hover {
+   background-color: black;
+}
+
+/* Resume Output */
+#resume-output {
+   padding: 20px;
+   margin-top: 30px;
+}
+
+.generate {
+   margin-left: 480px;
+   margin-bottom: 10px;
+   margin-left: 550px;
+   color: black;
+}
+
+#resume-content {
+   background: pink;
+   padding: 30px; /* Increased padding for more space */
+   border-radius: 8px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   max-width: 1000px; /* Increased max-width for a larger view */
+   margin: 0 auto;
+}
+
+.hidden {
+   display: none;
+}
+
+#resume-content h2 {
+   font-size: 2rem; /* Larger font size for better readability */
+   margin-bottom: 20px;
+ }
+ 
+ #resume-content p {
+   margin-bottom: 15px;
+   line-height: 1.8;
+ }
